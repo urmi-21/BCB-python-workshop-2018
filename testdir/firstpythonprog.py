@@ -76,3 +76,61 @@ print stringDNA[:len(stringDNA)//2].count(stringMotif)
 print stringDNA[len(stringDNA)//2:].count(stringMotif)
 print stringDNA[len(stringDNA)//2:].count(stringMotif)/float(stringDNA.count(stringMotif))*100
 
+
+#lists
+flowers = ['Orchid','Carnation','Sunflower','Marigold']
+print flowers[2:]
+print len(flowers[2:])
+print len(flowers[2])
+flowers.remove('Orchid')
+flowers.append(564)
+#flowers.extend(3.1415)
+print flowers
+
+#sets
+s=set() #creates empty set
+s.add(1) #add to set
+print s
+s=set([1,2,3,4,5,1,2,6,7,2]) #creates set from give list
+print s
+s=set('Mississippi')
+print s
+
+#dict
+d = {} #empty dict
+d[1]='value 1'
+d[2]='value 2'
+print d
+d = {1:'value1',2:'value2',3:'value3'}
+print d[1]
+d['x']='valueNA'
+print d
+
+i=0
+for i in range(10):
+    print i
+print i
+
+#if else
+grades=True
+gf=False
+gaming=True
+if (grades and gf and not gaming):
+	print "no money"
+elif(grades and gaming and not gf):
+	print "no social life"
+elif(not grades and gaming and gf):
+	print "no career"
+elif(grades and gf and gaming):
+	print "Impossible"
+
+
+#break continue
+mylist = [1,2,3,4,5,6,7,8]
+for i in mylist:
+    if (i % 2==0):
+        continue
+    if (i == 7):
+        break
+    print i
+

@@ -1,6 +1,8 @@
 '''
-BCBGSO Basic python workshop
+BCBGSO Basic Python workshop
 Exercise 1
+
+@author urmi
 '''
 
 
