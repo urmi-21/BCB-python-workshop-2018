@@ -134,3 +134,9 @@ for i in mylist:
         break
     print i
 
+#sum inside loop
+n=5
+totalsum=0			#important to initialize sum
+for x in range(n+1):
+    totalsum=totalsum+x		#adds numbers 0 till 5
+print totalsum	
