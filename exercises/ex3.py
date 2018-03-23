@@ -39,15 +39,19 @@ dnaCodons=['ATG','TTT','TTG','CTC','ATT','ATG','GTA','TAC','TAA','TAG','CAT','CA
 #Hint: the codons that will result in a stop codon are "UAG" and "UGA".
 
 '''
+*Bonus Question
 Open Reading Frame (ORF): An ORF is defined as the sequence which has the ability to be translated into a protein. An ORF start with a start codon i.e "ATG" and
 ends with any of the stop codons i.e. "TAG" or "TGA". Where a codon is defined as sub-sequence of length 3 in a given sequence. To keep things simple we scan in
-only one direction  and in only one frame (don't worry if you don't know these terms) to find the possible codons. e.g. in the sequence AATATGAGATGCTAACTACGTATATAGGGG the
-codons are ATG AGA TGC TAA CTA CGT ATA  i.e. three letters taken at a time starting from the start codon till the stop codon is reached (not printed). 
+only one direction  and in only one frame (don't worry if you don't know these terms) to find the possible ORF. e.g. in the sequence AAATTTATGAGCTTTCATCATTAGGGTTTG
+the ORF has the codons are ATG AGC TTT CAT CAT i.e. three letters taken at a time starting from the start codon till the stop codon is reached (not printed). 
 '''
-dnaSeq='AATATGAGATGCTAACTACGTATATAGGGG'
+dnaSeq='AAATTTATGAGCTTTCATCATTAGGGTTTG'
 #4. Given a DNA sequence can you find the ORF using the above defination.
-
-
-
-
-
+flag=False
+for i in range(0,len(dnaSeq)-3,3):
+    t=dnaSeq[i:i+3]
+    if t == "TAG" or t=="TGA":
+        break
+    if t == "ATG" or flag == True:
+        flag=True
+        print geneticCode[t.replace('T','U')]

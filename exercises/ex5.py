@@ -15,4 +15,6 @@ Answer the following.
 
 #2. Which transcript are biggest and shortest
 
-#3. How many transcripts have the same length. Feel free to use the internet for hints.
+#3. How many transcripts have the same length. Save results as a file
+# e.g. n transcripts have length x and so on
+# Hint: Use set.

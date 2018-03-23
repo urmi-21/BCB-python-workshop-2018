@@ -9,9 +9,8 @@ Exercise 4
 # and prints its squared length. E.g. if input to function is 'ABCD' return value should be 16.
 
 
-#2. Write a function that takes two strings as arguments and returns the sum of square of lengths of the two Strings.
-# E.g. if in put to function is 'ABC' and 'DE' return value should be 9+4=13. Use function overloading to name this function
-# same as the one above call these functions using different inputs
+#2. Write another function that takes two strings as arguments and returns the sum of square of lengths of the two Strings.
+# E.g. if in put to function is 'ABC' and 'DE' return value should be 9+4=13.
 
 
 #3. Let me define a term "pythagorean string triplets" as set of three strings such that squared length of any one is

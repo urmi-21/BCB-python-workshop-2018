@@ -12,14 +12,16 @@ stringMotif='ATCCA'
 '''
 Given above is an arbitary DNA sequence and a small motif. Write your code for the following problems
 '''
-#1. What is the length of the given DNA sequence and the motif ? Print your answers on a single line using a single print statement
+#1. What is the length of the given DNA sequence and the motif ? Print your answers on a single line
+# using a single print statement
+
 
 
 #2. How many times the motif occurs in the DNA sequence (search only non-overlapping occurrences)
 
 
-#3. Out of the total occurences, what percent of ocuurences are in the second half of the DNA sequence? Hint: use slice operator to divide DNA sequence
-
+#3. Out of the total occurences, what percent of ocuurences are in the second half of the DNA sequence?
+# Hint: use slice operator to divide DNA sequence
 
 
 
@@ -35,4 +37,5 @@ D=i
 K=s
 Hint: Remember a string is immutable to replace a character in a string you have to store it in a new variable.
 '''
-# Can you decipher the text? Print you answer below
+#4 Can you decipher the text? Print you answer below
+
