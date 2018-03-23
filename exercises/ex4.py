@@ -1,6 +1,6 @@
 '''
-BCBGSO Basic Python workshop
-Exercise 4
+BCBGSO Basic Python workshop 3/23/2018
+Exercise 4 
 
 @author urmi
 '''

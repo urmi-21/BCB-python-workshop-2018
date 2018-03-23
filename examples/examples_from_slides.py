@@ -1,3 +1,8 @@
+'''
+BCBGSO Basic Python workshop 3/23/2018
+examples from slide
+@author urmi
+'''
 # This is a single line comment
 '''
 This

@@ -1,5 +1,7 @@
 '''
-for and while loop example
+BCBGSO Basic Python workshop 3/23/2018
+
+for and while loop example 
 @author urmi
 '''
 

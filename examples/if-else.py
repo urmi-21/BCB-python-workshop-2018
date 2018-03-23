@@ -1,5 +1,6 @@
 '''
-if-else example
+BCBGSO Basic Python workshop 3/23/2018
+if-else example 
 
 @author urmi
 '''

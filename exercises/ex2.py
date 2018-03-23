@@ -1,5 +1,5 @@
 '''
-BCBGSO Basic Python workshop
+BCBGSO Basic Python workshop 3/23/2018
 Exercise 2
 
 @author urmi
