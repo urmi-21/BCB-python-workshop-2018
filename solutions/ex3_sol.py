@@ -7,6 +7,7 @@ Exercise 3
 #1. Given a number, find its factorial i.e. n*n-1*n-2*...*1. Hint: use loop.
 n=5
 #Don't change this
+#Thanks Yuan Wang, BCB for the dict code
 geneticCode = {"UUU":"F", "UUC":"F", "UUA":"L", "UUG":"L",
               "UCU":"S", "UCC":"s", "UCA":"S", "UCG":"S",
               "UAU":"Y", "UAC":"Y", "UAG":"STOP",

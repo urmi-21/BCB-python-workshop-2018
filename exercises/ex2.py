@@ -30,6 +30,7 @@ The variable "peptide" contains the protein sequence for the human tumor protein
 
 
 #Don't change this
+#Thanks Yuan Wang, BCB for the dict code
 geneticCode = {"UUU":"F", "UUC":"F", "UUA":"L", "UUG":"L",
               "UCU":"S", "UCC":"s", "UCA":"S", "UCG":"S",
               "UAU":"Y", "UAC":"Y", "UAG":"STOP",
