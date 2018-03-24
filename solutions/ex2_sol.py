@@ -14,9 +14,17 @@ Given above, "codons" is a list containg some of the 64 total codons.
 For the following questions change the list using your code and not by editing the list declaration
 '''
 #1. The last three elements in the list are not codons. Remove these from the codon list
+#remove last element from the list 3 times where codons[-1] is the last element
+codons.remove(codons[-1])
+codons.remove(codons[-1])
+codons.remove(codons[-1])
+print codons
 
 #2. Add the codons 'GGT', 'TTC' and 'TTA' to the list
-
+codons.append('GGT')
+codons.append('TTC')
+codons.append('TTA')
+print codons
 #3. How many codons are there in the list
 
 #Don't change this
@@ -27,7 +35,7 @@ The variable "peptide" contains the protein sequence for the human tumor protein
 '''
 
 #4. Find out how many unique amino acids are present in the human tumor protein p53. Hint use set()
-print set(peptide)
+print "unique amino acids:", len(set(peptide))
 
 #Don't change this
 #Thanks Yuan Wang, BCB for the dict code
@@ -54,4 +62,4 @@ Above "geneticCode" is a dict which maps an RNA codon to an amino acid letter.
 
 #5. For the sequence GGU GGC AAA CUA UAG UCG CGG print the coressponding amino acid sequence, using the above defined geneticCode.
 
-print geneticCode['GGU']
+print "peptide:", geneticCode['GGU'],geneticCode['GGC'],geneticCode['AAA'],geneticCode['CUA'],geneticCode['UAG'],geneticCode['UCG'],geneticCode['CGG']

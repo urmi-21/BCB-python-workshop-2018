@@ -6,6 +6,10 @@ Exercise 3
 '''
 #1. Given a number, find its factorial i.e. n*n-1*n-2*...*1. Hint: use loop.
 n=5
+fact=1
+for i in range(n+1):
+    fact=fact*i
+print 'factorial of',n,'is',fact
 #Don't change this
 #Thanks Yuan Wang, BCB for the dict code
 geneticCode = {"UUU":"F", "UUC":"F", "UUA":"L", "UUG":"L",
@@ -29,8 +33,10 @@ geneticCode = {"UUU":"F", "UUC":"F", "UUA":"L", "UUG":"L",
 Above "geneticCode" is a dict which maps an RNA codon to an amino acid letter. Same from excercise 2.
 '''
 
-dnaCodons=['ATG','TTT','TTG','CTC','ATT','ATG','GTA','TAC','TAA','TAG','CAT','CAC','CAA','AAC','AAG','GAT','TGC','TGA','TGG','CGA','AGC','AGG','GGG']
+dnaCodons=['ATG','TTT','TTG','CTC','ATT','ATG','GTA','TAC','TAG','CAT','CAC','CAA','AAC','AAG','GAT','TGC','TGA','TGG','CGA','AGC','AGG']
 
+for x in dnaCodons:
+    print geneticCode[x.replace('T','U')]
 #2. dnaCodons is a list of valid codons. Using a for loop iterate over this list and print corresponding amino acid.
 #Hint: The dict geneticCode is defined for RNA codons you will have to first convert the given DNA codons to RNA codons. To this replace all 'T' with 'U'.
 #You may want to use str.replace() function
@@ -55,7 +61,7 @@ for i in range(0,len(dnaSeq)-3,3):
         break
     if t == "ATG" or flag == True:
         flag=True
-        print geneticCode[t.replace('T','U')]
+        print t
 
 
 

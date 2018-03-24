@@ -35,6 +35,4 @@ Hint: Remember a string is immutable to replace a character in a string you have
 '''
 # Can you decipher the text? Print you answer below
 print stringEncrypted.replace('xYZ',' ').replace('T','a').replace('5','b').replace('P','c').replace('D','i').replace('K','s')
-print """
-sdas
-"""
+
